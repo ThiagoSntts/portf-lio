@@ -1,0 +1,84 @@
+header{
+    padding: 30px 0;
+    margin: 0 0 30px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo-alto{
+    width: 200px;
+}
+.navegacao{
+
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-1{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+.nav-1 .li-1{
+    display: inline;
+    margin: 0 0 20px 10px;
+}
+.nav-1 .a-1{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.nav-1 .a-1:hover{
+    background: greenyellow;
+}
+footer{
+    text-align: center;
+    width: 100%;
+}
+.nav-2{
+    position: absolute;
+    right: 0;
+}
+.nav-2 .li-2{
+    display: inline;
+    margin: 0 10px 20px 0;
+}
+.github{
+    width: 20px;
+    margin: 0 0 12px 0;
+    transition: 1s transform;
+}
+.github:hover{
+    transform: scale(2.1);
+}
+.email{
+    width: 23px;
+    margin: 0 0 12px 0;
+    transition: 1s transform;
+}
+.email:hover{
+    transform: scale(2.1);
+}
+.linkedin{
+    width: 20px;
+    margin: 0 0 12px 0;
+    transition: 1s transform;
+}
+.linkedin:hover{
+    transform: scale(2.1);
+}
+.logo-baixo{
+    width: 200px;
+}
+.copyright{
+    margin: 0 0 30px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+}

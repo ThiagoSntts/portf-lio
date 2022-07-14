@@ -1,0 +1,130 @@
+.boas-vindas{
+    padding: 30px;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.boas-vindas:after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: piscando .7s infinite;
+}
+@keyframes piscando{
+    0%,100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+
+}
+#seta{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    animation: piscar 1s steps(5, start) infinite;
+}
+@keyframes piscar{
+    to {
+        visibility: hidden;
+    }
+}
+.rodar{
+    transform: rotate(360deg);
+    transition: 0.65s all ease;
+}
+.ativar{
+    display: block !important;
+}
+.dev{
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 100px 0 20px 0;
+    text-align: center;
+}
+.foto-1{ 
+    margin: 0 20px 30px 20px;
+    width: 188px;
+    height: 188px;
+    border-radius: 100%;
+    float: left;
+}
+.sobre-mim{
+    margin: 80px 0 110px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.hobbies{
+    margin: 0 0 20px 30px;
+    font-family: 'Montserrat',sans-serif;
+}
+.hobbies h2{
+    margin: 0 0 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+.hobbies-1::before{
+    margin: 0 5px 0 0;
+    content: '🎮';
+}
+.softskills{
+    margin: 0 5px 0 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.softskills h2{
+    margin: 0 0 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+.softskills-1:before{
+    width: 50%;
+    margin: 0 5px 0 0;
+    content: '🧠';
+}
+.formacao-cursos{
+    margin: 0 5px 0 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.formacao-cursos h2{
+    margin: 20px 0 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+.formacao-cursos h3{
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+.experiencia{
+    margin: 0 5px 0 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.experiencia h2{
+    margin: 20px 0 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+.experiencia-img{
+    width: 245px;
+}
+.curriculo{
+    position: absolute;
+    right: 45%;
+    left: 45%;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.curriculo:hover{
+    background: greenyellow;
+}

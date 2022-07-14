@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago Santos</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/todos.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navegacao">
+            <img src="assets/logoth-removebg-preview.png" class="logo-alto" alt="Logo do Thiago Santos">
+            <nav class="nav-1">
+                <ul>
+                    <li class="li-1"><a href="index.html" class="a-1">Home</a></li>
+                    <li class="li-1"><a href="portfolio.html" class="a-1">Portfólio</a></li>
+                    <li class="li-1"><a href="contato.html" class="a-1">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-principal">
+        <h1 class="boas-vindas" id="maquina">Olá, seja bem-vindo(a)!</h1>
+        <div onclick="displaySobre()" id="seta">
+            <i id="animacao" class="fas fa-sort-down"></i>
+            <p class="sobre-mim-piscando">Sobre mim</p>
+        </div>
+        <div style="display: none;" id="sobre">
+
+            <section class="eu">
+                <h2 class="dev">Desenvolvedor front-end</h2>
+                <img src="./assets/eu1.jpeg" class="foto-1">
+                <p class="sobre-mim">"Olá! Meu nome é Thiago Andrade dos Santos. Tenho 23 anos e sou de Duque de Caxias, RJ.<br>
+                    Iniciei meus estudos em programação no ano de 2021 e logo me interessei pela área de desenvolvimento Front-End, utilizando HTML, CSS e Javascript.<br>
+                    Busco uma oportunidade de emprego para adquirir experiência, aprimorar meus conhecimentos e construir uma carreira sólida.<br>
+                    Sigo buscando me atualizar e conhecer o que há de mais atual no mercado de TI, com foco em front end."</p>
+            </section>
+            <section class="hobbies">
+                <h2>Hobbies:</h2>
+                <ul>
+                    <li class="hobbies-1">Passar tempo com a família</li>
+                    <li class="hobbies-1">Sair com os amigos</li>
+                    <li class="hobbies-1">Ler mangás e assistir animes ou séries</li>
+                    <li class="hobbies-1">Jogar futebol ou no computador</li>
+                    <li class="hobbies-1">Ir ao estádio assistir os jogos do meu Fluzão</li>
+                    <li class="hobbies-1">Cantar no karaokê</li>
+                    <li class="hobbies-1">Tocar baixo</li>
+                    <li class="hobbies-1">Viajar</li>
+                </ul>
+            </section>
+            <section class="softskills">
+                <h2>Soft Skills:</h2>
+                <ul>
+                        <li class="softskills-1">Trabalho em equipe</li>
+                        <li class="softskills-1">Comunicativo</li>
+                        <li class="softskills-1">Prestativo</li>
+                        <li class="softskills-1">Dinâmico</li>
+                        <li class="softskills-1">Dedicado</li>
+                        <li class="softskills-1">Empático</li>
+                        <li class="softskills-1">Resiliente</li>
+                </ul>
+            </section>
+            <section class="formacao-cursos">
+                <h2>Cursos e formações:</h2>
+                <h3>Gama Academy - 2021</h3>
+                <p>Bootcamp Desenvolvimento Full Stack - Programa Start Tech</p>
+                
+            </section>
+            <section class="experiencia">
+                <h2>Experiências em programação:</h2>
+                <img src="./assets/expprog.png" class="experiencia-img">
+            </section>
+            <a target="_blank" href="./assets/curriculo23anos.pdf" download=""><button class="curriculo">Download PDF</button></a>
+        </div>
+    </main>
+    <footer>
+        <img src="./assets/logoth-removebg-previewbaixo.png" class="logo-baixo" alt="Logo do Thiago">
+        <nav class="nav-2">
+            <ul class="redes">
+                <li class="li-2"><a target="_blank" href="https://github.com/ThiagoSntts" class="a-2"><img src="./assets/github.png" class="github"></a></li>
+                <li class="li-2"><a target="_blank" href="mailto: thiagosntts09@gmail.com" class="a-2"><img src="./assets/email.png" class="email"></a></li>
+                <li class="li-2"><a target="_blank" href="https://www.linkedin.com/in/thiago-santos-2871001b0/" class="a-2"><img src="./assets/linkedin.png" class="linkedin"></a></li>
+            </ul>
+        </nav>
+        <p class="copyright">Copyright &copy; 2022 Thiago Santos</p>
+    </footer>
+    <script src="js/digitando.js"></script>
+    <script src="js/seta.js"></script>
+</body>
+</html>

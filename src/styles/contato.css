@@ -1,0 +1,39 @@
+form{
+    margin: 10px 0 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+form label{
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+.label{
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+.input-padrao{
+    margin: 0 0 25px 0;
+    padding:10px 25px;
+    width: 50%;
+}
+.preferencia-contato{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+#radio-email, #radio-telefone, #radio-whatsapp{
+    cursor: pointer;
+}
+.enviar{
+    width: 35%;
+    padding: 15px;
+    color: black;
+    margin: 50px 0 0 120px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: greenyellow;
+}
